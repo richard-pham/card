@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Karla', sans-serif;
+}
+body{
+    background-color: #E5EFF5;
+;
+}
+.container{
+    width: 642px;
+    height: 515px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px auto;
+}
+.community{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 7px 7px 0px 0px;
+}
+.community h1{
+    color: #6fb2af;
+    margin: 21.44px 0;
+}
+.community h3{
+    color: #d6e33a;
+}
+.community p{
+    color: #98aac6;
+}
+.sub{
+    background-color: #2ab2af;
+    flex-grow: 1;
+    padding: 10px;
+    color: white;
+    border-radius: 0px 0px 0px 7px;
+}
+.sub__btn{
+    text-decoration: none;
+    color: white;
+    width: 243px;
+    height: 38px;
+    padding: 1px 6px;
+    background-color: #C0DF34;
+    cursor: pointer;
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub__btn:hover{
+    background-color: #cbf31b
+}
+.why{
+    background-color: #36CECC;
+    flex-grow: 1;
+    color: white;
+    padding: 10px;
+    line-height: 16px;
+    border-radius: 0px 0px 7px 0px;
+}
+.why h3{
+    font-weight: bold;
+    margin: 19px 0;
+}
+.why p{
+    color: #c9dce8;
+    display: block;
+}
+.month{
+    color: hsl(204, 41%, 85%)
+}
+.price{
+    font-size: xx-large;
+    font-weight: bold;
+}
